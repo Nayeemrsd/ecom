@@ -1,0 +1,103 @@
+.py5 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.text-title {
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.text-blue {
+  color: #2a2a72;
+}
+.mx-auto {
+  margin: 1rem auto;
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+.card :hover {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.125);
+}
+.image-container {
+  padding: 3rem;
+}
+.mx-auto .image-container {
+  position: relative;
+  overflow: hidden;
+}
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 1.25rem;
+  align-items: center;
+  box-sizing: border-box;
+  height: 40px;
+}
+.img-card-top {
+  width: 270px;
+  object-fit: cover;
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+  vertical-align: middle;
+}
+.mx-auto .cart-btn {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  padding: 0.2rem 0.4rem;
+  background: rgb(0, 123, 255);
+  border: none;
+  color: white;
+  font-size: 1.4rem;
+  border-radius: 0.5rem 0px 0px;
+  transform: translate(100%, 100%);
+  transition: all 1s linear 0s;
+}
+.align-self-center {
+  align-self: center;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
